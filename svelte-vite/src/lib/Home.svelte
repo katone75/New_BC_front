@@ -25,9 +25,6 @@
 
 
 <main class="home-container">
-<!--   <div class="home-container_article-Success">
-    <ArticleCard />
-  </div> -->
 
   <section class="home-container_latest-article" id="latest-articles">
     <div class="home-container_latest-article-block">
@@ -88,23 +85,16 @@ h2 {
 }
 
 .home-container {
-  padding: 0 250px;
-  display: flex;
-  flex-direction: column;
+  padding: 0 500px 10px;
 }
-
 
 .home-container_latest-article {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Permet aux cartes de se retourner à la ligne */
 }
 
-.home-container_latest-article-block {
-  display: flex;
-  flex-direction: column;
-}
 
 
 .menu-bar {
@@ -163,15 +153,7 @@ h2 {
     margin-top: 20;
     margin-bottom: 0px;
   }
-  .home-container_latest-article-flex {
-  display: block;
-}
   
-  .home-container_latest-article-block {
-    width: 100%; /* Prend la largeur complète du conteneur parent */
-    margin: 0; /* Supprime la marge entre les divs */
-    margin-bottom: 20px; /* Espacement entre les divs */
-  }
   .menu-bar {
     display: none; /* Cacher la barre de menu */
   }
@@ -180,15 +162,8 @@ h2 {
 /* Styles pour les écrans de taille moyenne */
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   /* Ajoutez ici les styles spécifiques pour les écrans de taille moyenne */
-  .home-container_latest-article-block {
-    display: grid; /* Utilise un affichage en grille */
-    grid-template-columns: 1fr 1fr; /* Divise en deux colonnes égales */
-    gap: 20px; /* Espacement entre les colonnes */
-  }
-  .home-container_latest-article-flex {
-    flex-wrap: wrap; /* Permet aux divs de se retourner à la ligne */
-    justify-content: space-between; /* Espace équitablement les divs */
-  }
+  
+
   .home-container {
     padding: 0 50px; /* Redéfinir le padding du conteneur */
   }
@@ -198,8 +173,9 @@ h2 {
 @media screen and (min-width: 1025px) {
   /* Ajoutez ici les styles spécifiques pour les grands écrans */
   main {
-    margin: 150px;
+    margin-top: 150px;
   }
+  
   h1 {
     margin-top: 100px;
     font-size: 90px;

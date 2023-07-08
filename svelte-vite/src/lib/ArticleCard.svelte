@@ -33,7 +33,7 @@
   padding: 10px;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 300px;
+  width: 600px;
   min-height: min-content; /* Hauteur minimale du contenu */
   max-height: 500px; /* Hauteur maximale à ne jamais dépasser */
   margin-bottom: 20px;
@@ -42,7 +42,7 @@
 
 .card-image {
   width: 100%;
-  height: 200px; /* Hauteur fixe pour l'image */
+  height: 300px; /* Hauteur fixe pour l'image */
   object-fit: cover; /* Redimensionne l'image pour couvrir toute la zone */
   border-radius: 5px;
   margin-bottom: 10px;
