@@ -1,0 +1,37 @@
+@import './partials/reset';
+@import './partials/variables';
+@import './partials/mixins';
+
+// _ pour dire que c'est un nodule et qu'Il ne faut pas le compiler
+h1, h2, li {
+  color: $color-lightbrown ;
+  font-size: 16 px;
+}
+
+p {
+  font-size: 16px;;
+}
+
+li {
+  color: $color-darkbrown ;
+}
+
+main {
+  display: flex;
+  /* flex-direction: column; */
+  min-height: 100vh; /* Définit une hauteur minimale de 100% de la hauteur de la fenêtre */
+  
+}
+
+/* Styles pour les écrans de petite taille */
+@media screen and (max-width: 600px) {
+  .img_title {
+    display: none;
+  }
+
+  .home-container {
+    padding: 0 20px; /* Modifiez la valeur selon vos besoins */
+  }
+}
+
+

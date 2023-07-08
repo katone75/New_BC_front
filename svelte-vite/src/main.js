@@ -1,4 +1,4 @@
-import '../src/sass/app.scss'
+import './scss/style.scss'
 import '../src/API.js'
 import App from './App.svelte'
 
