@@ -1,5 +1,5 @@
 <script>
-  // @ts-nocheck
+
   import axios from "axios";
 
   import { link } from "svelte-spa-router";
@@ -8,7 +8,6 @@
   import Login from "./Login.svelte";
 
   import slide from "svelte-transitions-slide";
-  import Darkmode from "../lib/Darkmode.svelte"
 
   const transitionOptions = {
     duration: 800, // Durée de la transition en millisecondes
