@@ -1,0 +1,35 @@
+  {
+    "name": "svelte-vite",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "devDependencies": {
+      "@sveltejs/vite-plugin-svelte": "^2.0.3",
+      "sass": "^1.62.1",
+      "svelte": "^3.57.0",
+      "tinymce": "^6.4.2",
+      "vite": "^4.3.5"
+    },
+    "dependencies": {
+      "@ckeditor/ckeditor5-build-classic": "^37.1.0",
+      "@ckeditor/ckeditor5-build-decoupled-document": "^37.1.0",
+      "@tinymce/tinymce-svelte": "^1.0.1",
+      "axios": "^1.4.0",
+      "date-fns": "^2.30.0",
+      "flowbite-svelte": "^0.36.4",
+      "svelte-hamburger": "^1.0.1",
+      "svelte-routing": "^1.8.9",
+      "svelte-spa-router": "^3.3.0",
+      "svelte-time": "^0.7.1",
+      "svelte-transition": "^0.0.7",
+      "svelte-transitions": "^1.2.0",
+      "svelte-transitions-fade": "^1.0.0",
+      "svelte-transitions-slide": "^1.0.0"
+    }
+  }
+  

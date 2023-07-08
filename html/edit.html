@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.ckeditor.com/ckeditor5/29.2.0/classic/ckeditor.css">
+    <link rel="stylesheet" href="trumbowyg/dist/ui/trumbowyg.min.css">
+
+    <title>Bloggers'Chronicles</title>
+
+
+</head>
+
+<body>
+    <header>
+        <img class="img_plume" src="../img/plume.png" alt="">
+        <img class="img_title" src="../img/nom.png" alt="">
+        <nav>
+            <ul class="link">
+                <li> <a href="#"><ion-icon name="home-sharp"></ion-icon></a> </li>
+                <li><a href="#"><ion-icon name="person-circle-outline"></ion-icon></a></li>
+                <li><ion-icon name="menu-outline"></ion-icon></li>
+
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="create_form">
+        <h1><ion-icon name="create-outline"></ion-icon>Modifier un article</h1>
+
+
+        <form method="post" action="" enctype="multipart/form-data">
+
+            <div class="title_form">
+                <label for="article_title">Titre de l'article :</label>
+                <input type="text" id="article_title" name="article_title">
+            </div>
+
+            <div class="img_form">
+                <label for="article_image">Image :</label>
+                <input type="file" id="article_image" name="article_image">
+            </div>
+
+
+            <label for="article_content">Contenu de l'article :</label>
+            <textarea name="editor" id=""></textarea>
+  
+
+
+            <div class="btn">
+            <button type="submit">Publier</button>
+            <button>Annuler</button>
+        </div>
+        </form>
+
+    </main>
+
+
+
+    <footer>
+        <ul class="info_footer">
+            <li> <a href="">Mentions légales</a> </li>
+            <li><a href="">A propos</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+
+        <ul class="social">
+            <li><ion-icon name="logo-linkedin"></ion-icon></li>
+            <li><ion-icon name="logo-twitter"></ion-icon></li>
+            <li><ion-icon name="logo-instagram"></ion-icon></li>
+            <li><ion-icon name="logo-facebook"></ion-icon></li>
+
+        </ul>
+    </footer>
+
+   
+    
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+
+
+</html>
