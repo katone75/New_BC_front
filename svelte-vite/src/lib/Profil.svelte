@@ -191,7 +191,7 @@ h1 {
 .profil_box {
   border-radius: 10px;
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 5px;
   margin: 20px;
 }
 
@@ -208,6 +208,7 @@ h1 {
 .profil_items_fav_content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .form-container {
