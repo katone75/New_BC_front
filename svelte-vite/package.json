@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "node server.js"
+    "start": "node --experimental-modules --experimental-specifier-resolution=node ./server.js"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.0.3",
